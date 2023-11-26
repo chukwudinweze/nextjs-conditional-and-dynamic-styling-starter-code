@@ -6,7 +6,7 @@ This guide provides a comprehensive walkthrough on building dynamic and conditio
 
 In the picture below is a basic UI we will build to learn conditional and dynamic styling.
 
-![basic ui](/basicUi.jpg)
+![basic ui](/public/basicUi.jpg)
 
 ## Beginner-Friendly
 

@@ -1,8 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Conditional and Dynamic Styling - Starter Code
+
+This guide provides a comprehensive walkthrough on building dynamic and conditional styling in Next.js using `clsx`, `cva`, and `tailwind-merge`.
+
+## What You Will Build
+
+In the picture below is a basic UI we will build to learn conditional and dynamic styling.
+
+![basic ui](/basicUi.jpg)
+
+## Beginner-Friendly
+
+This tutorial is designed for beginners who may not have extensive experience with Next.js.
+
+**Basic Next.js Knowledge**: If you have a basic understanding of Next.js, you'll be well-equipped to follow along. I'll explain each step in a way that's easy to grasp.
+
+Now, let's get started.
 
 ## Getting Started
 
-First, run the development server:
+### Clone the Repository
+
+Begin by cloning the starter repository to your local machine:
+
+```bash
+git clone https://github.com/chukwudinweze/nextjs-conditional-and-dynamic-styling-starter-code.git
+```
+
+### Install the Dependencies
+
+Navigate to the project directory and install the required dependencies using either Yarn or npm:
+
+```bash
+cd nextjs-conditional-and-dynamic-styling-starter-code
+yarn install
+# or
+npm install
+```
+
+### Start the Development Server
+
+To launch the development server and see our todo app in action, run one of the following commands:
 
 ```bash
 npm run dev
@@ -14,23 +51,10 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the result. You can interact with the starter application locally to ensure everything is set up correctly.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Now, you're all set to start! I hope you find this tutorial both informative and beginner-friendly.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you have any questions or encounter issues along the way, don't hesitate to reach out for assistance.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding!
